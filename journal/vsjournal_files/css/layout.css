@@ -1,0 +1,57 @@
+#soFresh {
+    font-size: 14pt;
+}
+
+.heading {
+    text-align: right;
+    background-color: #A8F0F0;
+}
+
+body {
+    background-image: url(../images/background.gif);
+}
+
+#mainBorder {
+    border: solid 10px white;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.content {
+    border: solid 4px #C2E9E9;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    overflow: auto;
+    border-radius: 15px;
+    position: relative;
+}
+
+.date {
+    border-bottom: dashed 2px purple;
+}
+
+#validator {
+    margin-right: 10%;
+    padding: 5px;
+}
+
+img {
+    float: right;
+    overflow: auto;
+}
+
+#friends {
+    font-size: 20px;
+    border: solid 5px #209697;
+    background-color: greenyellow;
+    width: 16%;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(117, 211, 211);
+    /*margin-bottom: 300px;*/
+}
