@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Apply for capital one</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='layout.css' type='text/css' rel='stylesheet' />
+
+</head>
+
+<body>
+
+    <form action="" method="post" enctype="application/x-www-form-urlencoded">
+        <div class="container">
+
+            <fieldset class="field_set">
+                <h1>Personal Information</h1>
+                <div class="section">
+                    <div class="section_half">
+                        <div class="section_label">FIRST NAME</div>
+                        <input type="text" name="fname" />
+                    </div>
+                    <div id="section_half">
+                        <div class="section_label">MI</div>
+                        <input id="mi" type="text" name="mname" />
+                    </div>
+
+
+
+                    <div class="section_half">
+                        <div class="section_label">DATE OF BIRTH</div>
+                        <input type="date" name="dob" pattern="^[0-1][0-2]\/[0-3]\d\/\d{4}$" />
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="section_label">LAST NAME</div>
+                    <div><input type="text" name="lname" /></div>
+                    <div class="section_label">SOCIAL SECURITY NUMBER</div>
+                    <div><input type="text" name="ssn" pattern="^\d{3}\-\d{2}\-\d{4}$" /></div>
+
+                    <div>
+                        <label>ARE YOU A U.S. CITIZEN?</label>
+                        <label><input type="radio" name="radcitizen" value="yes" checked="checked" /> YES</label>
+                        <label><input type="radio" name="radcitizen" value="no" /> NO</label>
+                    </div>
+
+            </fieldset>
+            <fieldset class="field_set">
+                <h1>contact Information</h1>
+                <div class="section_left">
+                    <div class="section_label">RESIDENTIAL ADDRESS (No PO Boxes or CMRA)</div>
+                    <input type="text" name="raddr" />
+                </div>
+                <div class="section_right">
+                    <div class="section_label">SUITE/APT. # (if applicable)</div>
+                    <div><input type="text" name="sapt" /></div>
+                </div>
+
+                <div class="section_half">
+                    <div class="section_label">EMAIL ADDRESS</div>
+                    <input type="email" name="email" pattern="^ />
+                    </div>
+                    <div class=" section_half ">
+                        <div class="section_label ">PRIMARY PHONE NUMBER</div>
+                        <input type="tel " name="phoneno " pattern="^ "/>
+                    </div>
+                </fieldset>
+                <fieldset class="field_set ">
+                    <h1>Financial Information</h1>
+                    <div class="section_half ">
+                        <div class="section_label ">DO YOU HAVE ANY BANK ACCOUNTS?</div>
+                        <select name="bacc ">
+                            <option>Checking And Savings</option>
+                            <option>Checking Only</option>
+                            <option>Savings Only</option>
+                            <option>Neither</option>
+                        </select>
+                        <div class="section_label ">TOTAL ANNUAL INCOME</div>
+                        <input type="text " name="totalinc " value=" " pattern="^\$[1-9]\d{0,}$ "/>
+                        <div class="section_clear ">
+                            Alimony, child support or separate maintenance income need not be revealed if you do not choose to have it considered as a basis for repaying this loan.
+                        </div>
+                    </div>
+                    <div class="section_half ">
+                        <div class="section_label ">EMPLOYMENT STATUS</div>
+                        <select name="empstatus ">
+                            <option>Employed</option>
+                            <option>Self-Employed</option>
+                            <option>Retired</option>
+                            <option>Student</option>
+                            <option>Unemployed</option>
+                        </select>
+                        <div class="section_label ">MONTHLY RENT/MORTGAGE</div>
+                        <input type="text " name="mrent " value=" " pattern="^\$[1-9]\d{0,}$ "/>
+                    </div>
+                    <br/>
+                    <div class="section_clear ">IF OFFERED, WOULD YOU BE INTERESTED IN BLANK CHECKS TO USE FOR CASH ADVANCES?(Optional)</div>
+                    <div class="section_clear ">
+                        <label><input type="radio " name="radcash " value="yes " checked="checked " /> YES</label>
+                        <label><input type="radio " name="radcash " value="no " /> NO</label>
+                    </div>
+                </fieldset>
+                <fieldset class="field_set ">
+                    <h1>Additional Information</h1>
+                    <div>
+                    <span>We need your agreement to receive by electronic means only communications regarding your application, including notice of our decision on your application and important account opening information regarding rates, fees and other costs related to the credit card for which you are applying. </span>
+                    </div>
+                    <div>
+                    <label><input type="checkbox " name="chkagree " value="yes " checked="checked " />I have reviewed and agree to the terms of the Electronic Communications Disclosure. I confirm that I have an active email address and the ability to access, view and print PDF files</label>
+                    </div>
+                    <div>
+                        <span>Some of our communications are available in both English and Spanish. Which language would you prefer for future communications?</span>
+                    </div>
+                    <div>
+                        <label><input type="radio " name="radlanguage " value="yes " checked="checked " /> ENGLISH</label>
+                        <label><input type="radio " name="radlanguage " value="no " /> SPANISH</label>
+                    </div>
+                </fieldset>
+                <fieldset class="field_set ">
+                    <div>
+                        <input type="submit " value="Continue ">
+                    </div>
+                   
+                
+    </body>
+</html>
