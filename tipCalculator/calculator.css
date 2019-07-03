@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient(rgb(140, 200, 240), rgb(202, 236, 109));
+    border-radius: 20pt;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+body,
+input,
+button {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 20pt;
+}
+
+div {
+    margin: 0.5em;
+}
+
+#cal2 {
+    float: right;
+}

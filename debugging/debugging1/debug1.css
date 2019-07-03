@@ -1,0 +1,21 @@
+var student=function() {
+    name: 'Jim Carey', course: 'wap', no: 12,
+}
+
+;
+for (var key in student) {
+    console.log (key);
+}
+
+Object.keys(student); // [name, course,
+stu=Object create(student);
+console.log(stu.name);
+for(var key in stu) {
+    console.log(key);
+}
+
+Object.keys(stu)) delete student.no;
+console.log(student);
+// Output:
+//Object{ name : "Jim Carrey",
+//course : "WAP" };
