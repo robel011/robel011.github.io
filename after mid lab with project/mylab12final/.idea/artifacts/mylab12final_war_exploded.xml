@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mylab12final:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/mylab12final_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="mylab12final/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mylab12final" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

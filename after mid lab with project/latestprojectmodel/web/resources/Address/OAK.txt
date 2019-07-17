@@ -1,0 +1,9 @@
+
+      Street: Adaams Street
+      House No: 17
+      county: Lake Merrit
+      zip-code: 94610
+      location: near Lake Merrit
+      Tel   : +17203593053/+123483387
+      Email  : oakland@hubi-wifee.co
+      Manager :Luwam Solomon
